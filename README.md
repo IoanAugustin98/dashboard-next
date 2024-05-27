@@ -65,14 +65,6 @@ This architecture ensures that the application is performant, maintainable, and 
 ## License
 This project is licensed under the MIT License.
 
-## Screenshots
-![Dashboard Screenshot](file-LiA7fUlbh5RyXnWNPvZ1YK7H.png)
-![Login Screenshot](file-YwubahLXSHYcskWAiwQQKVxm.png)
-![Dashboard View Screenshot](file-RLrM8xpHFWIGqttTpWPDsG8L.png)
-![Invoices Screenshot](file-VdT4y7Y1pt0qF5UQaWak2On8.png)
-![Create Invoice Screenshot](file-YEau7TI7edKZeWP1WTEivCjQ.png)
-![Search Invoice Screenshot](file-SPMMaUnX1Ab52vB1KYClwvBv.png)
-
 ---
 
 # Dashboard-Next
@@ -141,11 +133,10 @@ Această arhitectură asigură că aplicația este performantă, ușor de între
 ## Licență
 Acest proiect este licențiat sub Licența MIT.
 
-## Capturi de ecran
-![Captură de ecran a panoului](file-LiA7fUlbh5RyXnWNPvZ1YK7H.png)
-![Captură de ecran a autentificării](file-YwubahLXSHYcskWAiwQQKVxm.png)
-![Vizualizare panou de control](file-RLrM8xpHFWIGqttTpWPDsG8L.png)
-![Captură de ecran facturi](file-VdT4y7Y1pt0qF5UQaWak2On8.png)
-![Captură de ecran creare factură](file-YEau7TI7edKZeWP1WTEivCjQ.png)
-![Captură de ecran căutare facturi](file-SPMMaUnX1Ab52vB1KYClwvBv.png)
-
+## Screenshots
+![Dashboard Screenshot](screenshots/start.png)
+![Login Screenshot](screenshots/login.png)
+![Dashboard View Screenshot](screenshots/dashboard.png)
+![Invoices Screenshot](screenshots/invoices.png)
+![Create Invoice Screenshot](screenshots/create-invoice.png)
+![Search Invoice Screenshot](screenshots/edit-invoice.png)
