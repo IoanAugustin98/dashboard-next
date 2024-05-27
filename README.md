@@ -1,14 +1,42 @@
-# Next.js App Router Course - Starter
+# Dashboard-Next
 
-## Iată o prezentare generală a funcțiilor despre care am învățat în acest curs:
+## Description
+"Dashboard-Next" is a control panel application built using Next.js, TypeScript, and CSS Modules. This project aims to provide a highly performant and SEO-friendly dashboard leveraging the capabilities of server-side rendering provided by Next.js.
 
-### Stilare: diferitele moduri de a vă stila aplicația în Next.js.
-### Optimizări: Cum să optimizați imaginile, linkurile și fonturile.
-### Rutare: Cum să creați machete și pagini imbricate folosind rutarea sistemului de fișiere.
-### Preluarea datelor: Cum să configurați o bază de date pe Vercel și cele mai bune practici pentru preluare și transmitere în flux.
-### Căutare și paginare: Cum să implementați căutarea și paginarea folosind parametrii de căutare URL.
-### Mutarea datelor: Cum să modificați datele folosind React Server Actions și să revalidați memoria cache Next.js.
-### Gestionarea erorilor: Cum să gestionați erorile generale și 404 negăsite.
-### Validarea formularelor și accesibilitatea: Cum să faceți validarea formularelor pe partea de server și sfaturi pentru îmbunătățirea accesibilității.
-### Autentificare: Cum să adăugați autentificare la aplicația dvs. folosind NextAuth.js și Middleware.
-### Metadate: Cum să adăugați metadate și să vă pregătiți aplicația pentru partajarea socială.
+## Features
+- **Next.js**: Utilized for its server-side rendering and static site generation capabilities.
+- **TypeScript**: Ensures type safety and better development experience.
+- **CSS Modules**: Provides modular and scoped styling.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/IoanAugustin98/dashboard-next.git
+   ```
+2. Navigate to the project directory:
+	```bash
+	cd dashboard-next
+	```
+3. Install dependencies:
+	```bash
+	npm install
+	```
+4. Run the development server:
+	```bash
+	npm run dev
+	```
+Open http://localhost:3000 to view it in the browser.
+
+## Usage
+1. Navigate through the dashboard to explore the various features.
+2. Customize the components as per your requirements.
+
+## Contributing
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -m 'Add some feature').
+4. Push to the branch (git push origin feature-branch).
+5. Open a pull request.
+
+## License
+This project is licensed under the MIT License.
