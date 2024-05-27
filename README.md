@@ -138,5 +138,6 @@ Acest proiect este licențiat sub Licența MIT.
 ![Login Screenshot](screenshots/login.png)
 ![Dashboard View Screenshot](screenshots/dashboard.png)
 ![Invoices Screenshot](screenshots/invoices.png)
+![Search Invoice Screenshot](screenshots/search-user.png)
 ![Create Invoice Screenshot](screenshots/create-invoice.png)
 ![Search Invoice Screenshot](screenshots/edit-invoice.png)
