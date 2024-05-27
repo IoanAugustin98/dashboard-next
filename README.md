@@ -39,10 +39,41 @@
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
+## Architecture
+
+The architecture of the Dashboard-Next project is designed to be modular and scalable. Here is a high-level overview of the architecture:
+
+- **Next.js**: Provides the core framework for the application, enabling server-side rendering and static site generation.
+- **TypeScript**: Ensures type safety and improves the development experience.
+- **CSS Modules**: Used for modular and scoped styling, ensuring that styles are applied only to the components they are meant for.
+- **React Components**: The application is divided into reusable React components, each responsible for a specific part of the UI.
+- **API Integration**: The application interacts with external APIs to fetch and display data dynamically.
+- **State Management**: State is managed locally within components or using React's Context API for shared state.
+
+Here is a basic diagram of the application's architecture:
+
+```
+[Next.js] ---> [React Components] ---> [CSS Modules]
+   |                |
+[Server-Side]     [API Integration]
+   |
+[Static Site Generation]
+```
+
+This architecture ensures that the application is performant, maintainable, and easy to extend.
+
 ## License
 This project is licensed under the MIT License.
 
------------------------------------------------------------------------
+## Screenshots
+![Dashboard Screenshot](file-LiA7fUlbh5RyXnWNPvZ1YK7H.png)
+![Login Screenshot](file-YwubahLXSHYcskWAiwQQKVxm.png)
+![Dashboard View Screenshot](file-RLrM8xpHFWIGqttTpWPDsG8L.png)
+![Invoices Screenshot](file-VdT4y7Y1pt0qF5UQaWak2On8.png)
+![Create Invoice Screenshot](file-YEau7TI7edKZeWP1WTEivCjQ.png)
+![Search Invoice Screenshot](file-SPMMaUnX1Ab52vB1KYClwvBv.png)
+
+---
 
 # Dashboard-Next
 
@@ -84,5 +115,37 @@ This project is licensed under the MIT License.
 4. Trimite ramura (`git push origin feature-branch`).
 5. Deschide un pull request.
 
+## Arhitectură
+
+Arhitectura proiectului Dashboard-Next este proiectată pentru a fi modulară și scalabilă. Iată o prezentare generală la nivel înalt a arhitecturii:
+
+- **Next.js**: Oferă cadrul de bază pentru aplicație, permițând randarea pe server și generarea de site-uri statice.
+- **TypeScript**: Asigură siguranța tipurilor și îmbunătățește experiența de dezvoltare.
+- **CSS Modules**: Folosit pentru stilizare modulară și izolată, asigurând aplicarea stilurilor doar la componentele pentru care sunt destinate.
+- **Componente React**: Aplicația este împărțită în componente React reutilizabile, fiecare responsabilă pentru o parte specifică a interfeței.
+- **Integrare API**: Aplicația interacționează cu API-uri externe pentru a prelua și afișa date dinamic.
+- **Gestionarea stării**: Starea este gestionată local în componente sau folosind Context API-ul React pentru starea partajată.
+
+Iată o diagramă de bază a arhitecturii aplicației:
+
+```
+[Next.js] ---> [React Components] ---> [CSS Modules]
+   |                |
+[Server-Side]     [API Integration]
+   |
+[Static Site Generation]
+```
+
+Această arhitectură asigură că aplicația este performantă, ușor de întreținut și ușor de extins.
+
 ## Licență
 Acest proiect este licențiat sub Licența MIT.
+
+## Capturi de ecran
+![Captură de ecran a panoului](file-LiA7fUlbh5RyXnWNPvZ1YK7H.png)
+![Captură de ecran a autentificării](file-YwubahLXSHYcskWAiwQQKVxm.png)
+![Vizualizare panou de control](file-RLrM8xpHFWIGqttTpWPDsG8L.png)
+![Captură de ecran facturi](file-VdT4y7Y1pt0qF5UQaWak2On8.png)
+![Captură de ecran creare factură](file-YEau7TI7edKZeWP1WTEivCjQ.png)
+![Captură de ecran căutare facturi](file-SPMMaUnX1Ab52vB1KYClwvBv.png)
+
